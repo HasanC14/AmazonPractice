@@ -1,0 +1,43 @@
+.product{
+    height: 510px;
+    width: 300px;
+    border: 1px solid blanchedalmond;
+    border-radius: 8px;
+    position: relative;
+}
+.product img{
+width: 286px;
+height: 286px;
+border-radius: 8px;
+margin: 7px;
+}
+.p_name{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+}
+.product_info{
+    margin: 14px;
+}
+.m{
+    margin: 0;
+}
+
+.add_cart{
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    background-color: #95A0A7;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_cart p{
+    padding-right: 5px;
+}
+.add_cart:hover{
+    background-color: #FF9900;
+}
